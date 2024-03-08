@@ -24,7 +24,7 @@ def main():
                 pygame.quit()
                 sys.exit()
                 
-        screen.fill((255, 255, 255))
+        screen.fill((0, 0, 0))
 
         # Update character position
         character.update(keys)
